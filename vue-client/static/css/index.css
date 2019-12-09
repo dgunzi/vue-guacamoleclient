@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "iconfont.css";
+
+@media all {
+  .noShow {
+    display: none;
+  }
+}
+
+/*去掉时间控件的此刻按钮*/
+.is-show-now .s-picker-panel-footer .s-button-text{
+  display: none;
+}
+/*表格溢出显示内容显示不全*/
+.s-tooltip-popper .s-scrollbar-wrap{
+  max-height: none!important;
+}
