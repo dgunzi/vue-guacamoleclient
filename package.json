@@ -10,7 +10,7 @@
     "dll": "webpack --config build/webpack.dll.conf.js --colors --display-modules"
   },
   "dependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.18.1",
     "guacamole-common-js": "^1.1.0-b",
     "jstz": "^2.1.1",
     "lodash": "^4.17.11",
